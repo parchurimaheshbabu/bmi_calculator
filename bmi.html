@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI </title>
+    <link rel="stylesheet" href="bmi.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+              <h1 class="headline">BMI Calculator</h1>
+
+        <input type="number" placeholder=" enter mass" id="mass" required />
+        <input type="number" placeholder=" enter height in C.Ms" id="height"  required/>
+        <input type="submit" onclick="cal()" placeholder="submit" required />
+        <p id="result"></p>
+        <input type="submit" value="Re Calculate" onclick="refresh()" id="reload"/>
+      </div>
+    </div>
+        <!-- <input type="submit" value="Re Calculate" onclick="reload()"/> -->
+<!-- <button onclick="refresh()">refresh</button> -->
+    <script src="bmi.js"></script>
+  </body>
+</html>
